@@ -1,5 +1,13 @@
 class main {
 	public static void main(String a[]) {
-		System.out.println("Running and learning git and github....");
-	}
+		// Find positive,negative or zero
+
+		Scanner in=new Scanner(System.in);
+		int n=in.nextInt();
+		if(n>0) System.out.pirntln("Positive");
+		if(n<0) System.out.println("Negative") else if(n==0) System.out.println("Zero");
+        }
 }
+
+Operations Completed successfully
+
